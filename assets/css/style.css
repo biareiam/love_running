@@ -194,6 +194,7 @@ hr {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+
 }
 
 /*event times*/
@@ -286,8 +287,21 @@ footer {
         padding: 0;
     }
 
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+
     hr {
         display: none;
+    }
+
+    #center-about {
+        padding-bottom: 50px;
+        padding-top: 0;
     }
 }
 
@@ -328,4 +342,16 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and down*/
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;
+    }
+
 }
